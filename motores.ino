@@ -10,7 +10,7 @@ void setup()
   
   motor.setSpeed(100);
   motor.run(RELEASE);
-  motor1.setSpeed(150);
+  motor1.setSpeed(120);
   motor1.run(RELEASE);
 }
 
@@ -21,8 +21,6 @@ void loop()
   motor.run(FORWARD); 
     motor1.run(BACKWARD);
   delay (10000);
-  motor.run(RELEASE);
-  motor1.run(RELEASE);
-   delay (2000);
+  
 
 }
